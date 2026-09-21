@@ -1,7 +1,7 @@
 # ----------------------------------------------------------------------------
 # Commits Syntax Checker Workflow
 # This workflow validates commit messages against the Conventional Commits specification.
-# It runs on every push and pull request to ensure consistent commit history.
+# It runs on pull requests to ensure consistent commit history before merge.
 # ----------------------------------------------------------------------------
 
 name: Commits Syntax Checker
