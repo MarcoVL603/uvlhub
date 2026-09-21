@@ -7,9 +7,7 @@
 name: Commits Syntax Checker
 
 on:
-  # Trigger the workflow on every push to any branch
-  push:
-  # Trigger the workflow on every pull request (opened, synchronized, or updated)
+  # Trigger the workflow on pull requests before merge to keep main history compliant.
   pull_request:
 
 jobs:
